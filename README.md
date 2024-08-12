@@ -1,10 +1,10 @@
 # Predicting house sale price 
 This model predicts the sale price of a house based on a training dataset with 80 features and 1460 instances.
 
-### Exploratory data analysis was conducted to 
-- Identify features that are strongly correlated with the target variable (sale price)
-- Detect highly correlated features that might not contribute additional information
-- Perform Principal Component Analysis (PCA) to assess whether the variation in the features is largely explained by the first or second principal components
+### Exploratory data analysis 
+- Identified features that are strongly correlated with the target variable (sale price)
+- Detected highly correlated features that might not contribute additional information
+- Performed Principal Component Analysis (PCA) to assess whether the variation in the features is largely explained by the first or second principal components
 
 ### Modeling
 Random Forest, CatBoost, and XGBoost models were trained on the dataset. Feature engineering and hyperparameter tuning were performed together to optimize model performance. Various thresholds were identified based on the range of feature importance metrics. Features with importance below these thresholds were dropped, followed by further hyperparameter tuning. The best combination of threshold and hyperparameters was selected.
