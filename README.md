@@ -1,5 +1,5 @@
 # Predicting house sale price 
-Multiple models predict the sale price of a house based on a training dataset with 80 features and 1460 instances.
+The goal of this kaggle project/competition is to develop a machine learning model to predict the sale price of a house based on a training dataset with 80 features and 1460 instances.
 
 ### Exploratory data analysis 
 - Identified features that are strongly correlated with the target variable (sale price)
